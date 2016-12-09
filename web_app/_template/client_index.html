@@ -1,0 +1,54 @@
+<!--
+  -- Here goes Front-End's index HTML
+  -->
+<!DOCTYPE
+    html
+>
+<html
+>
+    <head
+    >
+        <base
+            target="_top"
+        >
+        <script
+            type="text/javascript"
+        >
+            function failure_handler(
+                error
+            )
+            {
+                console.log(
+                    "failure_handler"
+                )
+                
+                throw error
+            }
+            
+            window.server_app_round_trip = function(
+                app_server_function_name
+              , app_server_function_config
+              , client_handler
+            )
+            {
+                var stringified_config = JSON.stringify(
+                    app_server_function_config
+                )
+            
+                google.script.run.withFailureHandler(
+                    failure_handler
+                ).withSuccessHandler(
+                    client_handler
+                )[app_server_function_name](
+                    stringified_config
+                )
+            }
+        </script>
+    </head>
+    <body
+    >
+        <?!= serve__template_raw_content("client_html.html") ?>
+        <?!= serve__template_raw_content("client_css.html") ?>
+        <?!= serve__template_raw_content("client_js.html") ?>
+    </body>
+</html>

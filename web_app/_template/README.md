@@ -1,4 +1,4 @@
-![Tested](https://img.shields.io/badge/color-passing-green.svg)
+![Tested](https://img.shields.io/badge/test-done-green.svg)
 # GAS Web App boilerplate
 A boilterplate for [Google Apps Script](https://developers.google.com/apps-script/) web applications.
 

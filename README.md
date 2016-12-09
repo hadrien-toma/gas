@@ -7,7 +7,7 @@ git clone https://github.com/hadrien-toma/gas.git
 ```
 
 ## Usage(s)
-Navigate through the [GAS] use cases of your choice.
+Navigate through the Google Apps Script's use cases of your choice.
 
 ## Repository file system
 * **gas/** : This folder.

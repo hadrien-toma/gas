@@ -1,5 +1,5 @@
 # GAS Web App
-Some [Google Apps Script](https://developers.google.com/apps-script/)[GAS] web applications.
+Some [Google Apps Script](https://developers.google.com/apps-script/) [GAS] web applications.
 
 ## Installation(s)
 ```bash
@@ -26,7 +26,7 @@ git clone https://github.com/hadrien-toma/gas.git
   * GitHub user name : hadrien-toma
   * NPM user name : @hadrien-toma
   * StackOverflow user name : Hadrien TOMA
-  * Email : [toma.hadrien@gmail.com](mailto:toma.hadrien@gmail.com?Subject=About%20gas-web_app)
+  * Email : [toma.hadrien@gmail.com](mailto:toma.hadrien@gmail.com?Subject=About%20gas%2Fweb_app)
 
 ## License(s)
 * [MIT](https://github.com/hadrien-toma/gas/blob/master/web_app/LICENSE)

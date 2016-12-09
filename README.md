@@ -1,5 +1,5 @@
 # GAS
-Some [Google Apps Script](https://developers.google.com/apps-script/)[GAS] use cases.
+Some [Google Apps Script](https://developers.google.com/apps-script/) [GAS] use cases.
 
 ## Installation(s)
 ```bash

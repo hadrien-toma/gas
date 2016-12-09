@@ -43,6 +43,10 @@
                     stringified_config
                 )
             }
+            
+            window.http_params = <?!= http_params_stringified ?>
+            
+            console.log("HTTP params :\n" + JSON.stringify(window.http_params, null, "\t"))
         </script>
     </head>
     <body

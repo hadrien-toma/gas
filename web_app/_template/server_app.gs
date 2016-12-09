@@ -4,13 +4,17 @@
  * All these functions except the official `doGet` are prefixed by "serve__".
  */
 function doGet(
-    http_params
+    config
 )
 {
     var template = HtmlService.createTemplateFromFile(
         'client_index'
     )
-  
+    
+    template.http_params_stringified = JSON.stringify(
+        config.parameters
+    )
+
     var evaluated_template = template.evaluate(
     )
     

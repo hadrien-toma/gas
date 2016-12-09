@@ -9,8 +9,8 @@ git clone https://github.com/hadrien-toma/gas.git
 
 ## Usage(s)
 1. Create a new Google Apps Script in a Google Drive's folder of your choice.
-2. Open this newly created file and create and paste the content of all files in the folder `./web_app/_template` of this repository.
-3. Remove the initially create file "Code.gs".
+2. Open this newly created file and create/paste the content of all files in the folder `./web_app/_template` of the previous cloned repository.
+3. Remove the initially created file "Code.gs".
 4. Deploy this application as web application.
 
 ## Repository file system
@@ -29,8 +29,6 @@ git clone https://github.com/hadrien-toma/gas.git
 - [x] Push first commit.
 - [ ] Write in-file comments.
 
-## Related work
-
 ## Author(s)
 * Hadrien TOMA :
   * Website : https://github.com/hadrien-toma
@@ -40,4 +38,4 @@ git clone https://github.com/hadrien-toma/gas.git
   * Email : [toma.hadrien@gmail.com](mailto:toma.hadrien@gmail.com?Subject=About%20gas-web_app-_template)
 
 ## License(s)
-* [MIT]
+* [MIT](https://github.com/hadrien-toma/gas/blob/master/web_app/_template/LICENSE)

@@ -13,7 +13,7 @@ function doGet(
     var iso_string_datetime = datetime.toISOString(
     )
     
-    var file_name = iso_string_datetime.replace(
+    var file_name = config.parameter.prefix + "__" + iso_string_datetime.replace(
         /:/g
       , "-"
     ) + ".txt"

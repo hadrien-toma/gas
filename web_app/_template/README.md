@@ -1,4 +1,3 @@
-![Tested](https://img.shields.io/badge/Tests-done-green.svg)
 # GAS Web App boilerplate
 A boilterplate for [Google Apps Script](https://developers.google.com/apps-script/) [GAS] web applications.
 
@@ -10,8 +9,9 @@ git clone https://github.com/hadrien-toma/gas.git
 ## Usage(s)
 1. Create a new Google Apps Script in a Google Drive's folder of your choice.
 2. Open this newly created file and create/paste the content of all files in the folder `./web_app/_template` of the previous cloned repository.
-3. Remove the initially created file "Code.gs".
-4. Deploy this application as web application.
+3. Comment the LICENSE and the README contents.
+4. Remove the initially created file "Code.gs".
+5. Deploy this application as web application.
 
 ## Repository file system
 * **gas/web_app/_template** : This folder.

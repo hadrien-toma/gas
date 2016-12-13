@@ -12,6 +12,7 @@ Navigate through the Google Apps Script's use cases of your choice.
 ## Repository file system
 * **gas/** : This folder.
   * **web_app/** : The folder of GAS web applications.
+  * **server/** : The folder of GAS servers.
   * **README.md** : This file.
 
 ## Roadmap

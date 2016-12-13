@@ -7,11 +7,7 @@ git clone https://github.com/hadrien-toma/gas.git
 ```
 
 ## Usage(s)
-1. Create a new Google Apps Script in a Google Drive's folder of your choice.
-2. Open this newly created file and create/paste the content of all files in the folder of the web application you want to use in the previous cloned repository.
-3. Add comment tags around README's content and LICENSE's content.
-4. Remove the initially created file "Code.gs".
-5. Deploy this application as web application.
+1. Navigate through the folder of your choice from "./web_app/" folder.
 
 ## Repository file system
 * **gas/web_app/** : This folder.
